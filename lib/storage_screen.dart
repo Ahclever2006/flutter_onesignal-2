@@ -24,7 +24,7 @@ class _StorageScreenState extends State<StorageScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('prueba'),
+        title: Text('Mis Pruebas'),
       ),
       body: Container(
         child: GridView.builder(
