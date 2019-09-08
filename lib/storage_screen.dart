@@ -32,7 +32,7 @@ class _StorageScreenState extends State<StorageScreen> {
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
           itemBuilder: (BuildContext context, int index) {
             return Card(
-              git child: Image.network('https://firebasestorage.googleapis.com/v0/b/fir-flutter-62ba6.appspot.com/o/${imagenes[index]}?alt=media')
+              child: Image.network('https://firebasestorage.googleapis.com/v0/b/fir-flutter-62ba6.appspot.com/o/${imagenes[index]}?alt=media')
             );
           }
         )
